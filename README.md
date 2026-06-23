@@ -102,14 +102,6 @@ It is intended to help security professionals, students, and researchers underst
 
 ---
 
-## 🚀 Installation
-
-```bash
-git clone https://github.com/username/coffie-stealer.git
-cd coffie-stealer
-
-pip install -r requirements.txt
-```
 
 ---
 
@@ -126,7 +118,7 @@ Before running the project:
 ## ▶️ Usage
 
 ```bash
-python main.py
+Figure it out yourself
 ```
 
 For research environments only.
